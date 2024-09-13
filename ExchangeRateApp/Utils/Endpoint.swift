@@ -22,12 +22,12 @@ enum Endpoint {
     func query() -> [String: String] {
         switch self {
         case .default:
-            return ["access_key": ""]
+            return ["access_key": "0241dee87c17b289c7f7c657f6c4436f"]
             
         case .withSymbols:
             return [
-                "symbols" : "GBP,JPY,USD,INR",
-                "access_key": ""
+                "symbols" : "GBP,JPY,USD,INR,EUR,CZK,DKK",
+                "access_key": "0241dee87c17b289c7f7c657f6c4436f"
             ]
         }
     }
